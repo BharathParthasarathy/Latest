@@ -10,11 +10,11 @@ ENV PYTHONUNBUFFERED 1
 WORKDIR /app
 
 # Copy the requirements.txt file and install dependencies
-COPY Latest/dev/crm/requirements.txt /app/requirements.txt
+COPY requirements.txt /app/requirements.txt
 RUN pip install -r requirements.txt
 
 # Copy the project code into the container
-COPY Latest/dev/crm /app/
+COPY . /app/
 
 # Expose the port the app runs on
 EXPOSE 8000
