@@ -1,1 +1,6 @@
-
+[
+  {
+    "name": "virtual-projct-cicd-2.0",
+    "imageUri": "public.ecr.aws/j4z2o6s3/virtual-projct-cicd-2.0:latest"
+  }
+]
